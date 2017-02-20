@@ -88,6 +88,12 @@ lancache-hirez = 10.10.100.103
 lancache-origin = 10.10.100.104
 lancache-sony = 10.10.100.105
 ```
+
+# Required client changes
+## Riot
+The LoL-Patcher uses TLS by default, and therefore **fails by default**. All users must add
+`UseTLS=false` to `$LOL_INSTALLATION_PATH/RADS/system/system`.
+
 # LANcache @ [Insomnia 55](https://insomniagamingfestival.com/)
 ## Hardware Specification
 * Dual Hex Core CPU’s
